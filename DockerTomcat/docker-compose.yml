@@ -1,0 +1,8 @@
+version: '3'
+services:
+  webserver:
+    # path to dockerfile.
+    build: /Users/chandramohan.m/DockerTomcat
+    ports: 
+      - "8080:8080"
+    
